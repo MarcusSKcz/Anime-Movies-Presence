@@ -8,3 +8,5 @@ overrides.json
 *.key
 *.secret
 .env
+venv/
+.idea/
