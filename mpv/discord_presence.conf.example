@@ -1,0 +1,8 @@
+# Optional MPV script options.
+# Copy to ~/.config/mpv/script-opts/discord_presence.conf if you need to change these.
+
+host=127.0.0.1
+port=47230
+# token=put_same_token_as_config_json_if_you_enable_it
+update_interval=15
+curl_timeout=1.5

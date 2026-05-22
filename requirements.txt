@@ -1,0 +1,3 @@
+pypresence>=4.6.1
+guessit>=3.8.0
+aniparse>=2.0.0

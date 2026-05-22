@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+.cache/
+config.json
+overrides.json
+*.log
+*.key
+*.secret
+.env
