@@ -21,6 +21,7 @@ python -m venv "$APP_DIR/.venv"
 "$APP_DIR/.venv/bin/python" -m pip install -r "$APP_DIR/requirements.txt"
 
 ln -sf "$APP_DIR/mpv/discord_presence.lua" "$MPV_SCRIPT_DIR/discord_presence.lua"
+ln -sf "$APP_DIR/mpv/discord_presence_clear.lua" "$MPV_SCRIPT_DIR/discord_presence_clear.lua"
 cp -n "$APP_DIR/mpv/discord_presence.conf.example" "$MPV_OPTS_DIR/discord_presence.conf" || true
 
 cat > "$BIN_DIR/mpv-presence" <<EOF
